@@ -1,2 +1,2 @@
 # gorest
-Example rest service in gloang
+Example rest service in golang
