@@ -92,7 +92,7 @@ func main() {
 	router := mux.NewRouter()
 
 	LoadDB() // init db
-	// TODO add more people
+	// TODO add more process
 	router.HandleFunc("/processo/{id}", GetProcesso).Methods("GET")
 	router.HandleFunc("/processos", GetProcessos).Methods("GET")
 
