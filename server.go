@@ -85,6 +85,7 @@ func GetProcesso(w http.ResponseWriter, r *http.Request) {
 func LoadDB() {
 	processos = append(processos, Processo{ID: "1", Nome: "ACME", Cpfcnpj: "xyz", Descricao: "Gritou com a mãe", Decisao: "culpado"})
 	processos = append(processos, Processo{ID: "4", Nome: "Gale Corp", Cpfcnpj: "xyz", Descricao: "Nao lavou a louça", Decisao: "absorvido"})
+	processos = append(processos, Processo{ID: "95902" , Nome: "Ígor Moraes",Cpfcnpj: "065.226.778-57",Descricao:"Cupiditate sed repellendus numquam.",Decisao: "absorvido"})
 }
 
 // main function TODO add more endpoints to mimic a component
