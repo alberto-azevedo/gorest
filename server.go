@@ -93,7 +93,7 @@ func main() {
 
 	LoadDB() // init db
 	// TODO add more people
-	router.HandleFunc("/consultaProcesso/{id}", GetProcesso).Methods("GET")
+	router.HandleFunc("/processo/{id}", GetProcesso).Methods("GET")
 	router.HandleFunc("/processos", GetProcessos).Methods("GET")
 
 	router.HandleFunc("/info", GetInfo).Methods("GET")
